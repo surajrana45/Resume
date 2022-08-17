@@ -51,8 +51,8 @@ body {
 }
 
 #name-social img {
-  width: 50px;
-  height: 50px;
+  width: 3rem;
+  height: 3rem;
   margin-bottom: 10px;
 }
 #my-image {
@@ -60,7 +60,6 @@ body {
   width: 12rem;
   margin: auto;
   margin-top: -12vh;
-  display: absolute;
 }
 #my-image img {
   border-radius: 50%;
@@ -145,6 +144,8 @@ section:target {
 #portfolio {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 100%;
+  text-align: center;
 }
 
 .portfolio-display {
