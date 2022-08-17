@@ -1,0 +1,208 @@
+body {
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+}
+
+#himage {
+  height: 65vh;
+  background-image: url(1374076.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+  padding: 7px;
+}
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, border-bottom 5s;
+}
+.horizontal-list li a:hover {
+  color: gray;
+  border-bottom: 1px solid;
+}
+#name-social {
+  margin-top: 18vh;
+  text-align: center;
+}
+#text {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+#about {
+  height: auto;
+  width: 95%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#name-social img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: -12vh;
+  display: absolute;
+}
+#my-image img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#about p {
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading-class {
+  font-size: 2.6rem;
+  color: #2857a4;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+}
+.skill-display {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-progress {
+  margin-top: 15px;
+  background-color: rgb(205, 199, 199);
+  height: 1.4rem;
+  width: 7rem;
+
+  border-radius: 20px;
+}
+.skill-name {
+  background-color: #3665b0;
+  height: inherit;
+  border-radius: 20px 0 0 20px;
+  width: 65%;
+}
+.Text {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 5px;
+}
+.skill-name-75 {
+  background-color: #3665b0;
+  height: inherit;
+  border-radius: 20px 0 0 20px;
+  width: 75%;
+}
+.skill-name-65 {
+  background-color: #b03636;
+  height: inherit;
+  border-radius: 20px 0 0 20px;
+  width: 65%;
+}
+.skill-name-55 {
+  background-color: #a236b0;
+  height: inherit;
+  border-radius: 20px 0 0 20px;
+  width: 55%;
+}
+.skill-name-50 {
+  background-color: #36b040;
+  height: inherit;
+  border-radius: 20px 0 0 20px;
+  width: 50%;
+}
+
+section:target {
+  background-color: rgb(168, 227, 207);
+}
+
+/* POrtfolio*/
+
+#portfolio {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.portfolio-display {
+  max-width: 70%;
+  min-width: 10%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: auto;
+}
+.portfolio-show {
+  width: 45%;
+  display: flex;
+  font-size: 1.2em;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.image {
+  min-width: 5%;
+  max-width: 50%;
+}
+h2 {
+  font-size: 1.8rem;
+}
+
+/*CONTACT DIV*/
+#contact {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #6b84ad;
+}
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  margin: 10px 0 0 10px;
+}
+
+.contact-div {
+  width: 70%;
+}
+
+#contact img {
+  width: 50px;
+  height: 50px;
+}
+#contact a span {
+  color: white;
+}
+#contact li img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.white {
+  color: white;
+}
