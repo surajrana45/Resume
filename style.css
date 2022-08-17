@@ -59,7 +59,7 @@ body {
   height: 12rem;
   width: 12rem;
   margin: auto;
-  margin-top: -12vh;
+  margin-top: -9vh;
 }
 #my-image img {
   border-radius: 50%;
@@ -144,8 +144,6 @@ section:target {
 #portfolio {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  width: 100%;
-  text-align: center;
 }
 
 .portfolio-display {
@@ -155,14 +153,17 @@ section:target {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   overflow: auto;
 }
 .portfolio-show {
   width: 45%;
   display: flex;
   font-size: 1.2em;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 19rem;
   overflow: auto;
 }
 
